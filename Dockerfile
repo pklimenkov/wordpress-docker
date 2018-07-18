@@ -24,6 +24,7 @@ ENV WP_VERSION 4.9.4
 ENV TZ Europe/Paris
 
 COPY entrypoint.sh /entrypoint.sh
+ADD apache/000-default.conf /etc/apache2/sites-available/000-default.conf
 
 ENTRYPOINT ["/entrypoint.sh"]
 # ENTRYPOINT resets CMD now
