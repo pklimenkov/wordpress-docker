@@ -1,5 +1,5 @@
 tmp
-backups
+backups/*
 !backups/.gitkeep
 wordpress/*
 !wordpress/wp-content
