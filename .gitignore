@@ -1,5 +1,6 @@
 tmp
 backups
+!backups/.gitkeep
 wordpress/*
 !wordpress/wp-content
 
