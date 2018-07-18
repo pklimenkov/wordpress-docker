@@ -65,6 +65,8 @@ PHP
 		--skip-email
 
 	wp plugin --allow-root install fakerpress --activate
+	wp plugin --allow-root install woocommerce --activate
+	wp plugin --allow-root install shop-feed-for-instagram-by-snapppt --activate
 
 	# Add domain to hosts file. Required for Boot2Docker.
 	echo "127.0.0.1 ${WP_DOMAIN}" >> /etc/hosts
